@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/subItem1"
+        android:title="Buscar por:"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/opcion1"
+        android:title="Nombre"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/opcion2"
+        android:title="Apellido"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/opcion3"
+        android:title="Telefono"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/opcion4"
+        android:title="Correo electronico"
+        app:showAsAction="ifRoom"
+        />
+</menu>
